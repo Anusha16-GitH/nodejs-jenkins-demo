@@ -5,7 +5,9 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/Anusha16-GitH/nodejs-jenkins-demo.git'
+                git branch: 'main', 
+                url:
+                 'https://github.com/Anusha16-GitH/nodejs-jenkins-demo.git'
             }
         }
 
