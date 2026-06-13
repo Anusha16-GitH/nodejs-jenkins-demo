@@ -28,11 +28,5 @@ pipeline {
                 bat 'npm test'
             }
         }
-
-        stage('Run') {
-            steps {
-                bat 'npm start '
-            }
-        }
     }
 }
